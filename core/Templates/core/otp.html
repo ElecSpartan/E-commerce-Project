@@ -1,0 +1,24 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Log in | Na Store{% endblock %} 
+
+{% block content %}
+    <div class="w-1/2 my-6 mx-auto p-6 bg-gray-100 rounded-xl">
+        <h1 class="mb-6 text-3xl">Log in</h1>
+
+        <form method="post" action=".">
+
+            {% csrf_token %}
+
+            <div class = "mb-4">
+                <label class ="block text-gray-700 tex-xs font-bold mb-2" for="form.otp.id_for_label"></label>
+                {{form.otp|add_class:"bg-slate-100 dark:bg-slate-300 text-slate-800 rounded-lg p-3 drop-shadow-xl w-full"}}
+            </div>
+            
+
+            <button class="py-4 px-8 text-lg bg-teal-500 hover:bg-teal-700 text-white rounded-xl">Submit</button>
+        </form>
+        
+        
+    </div> 
+{% endblock %}
