@@ -7,36 +7,36 @@
 * online payment
 
 ### Installation on Windows
-1- Clone this project
-2- install python virtual environment
+1. Clone this project
+2. install python virtual environment
 ``` bash
 pip install virtualenv
 ```
-3- create new virtual environment
+3. create new virtual environment
 ```bash
 python -m venv venv
 ```
-4- activate the new virtual
+4. activate the new virtual
 ```bash
 .\venv\Scripts\activate
 ```
-5- install django localy in venv
+5. install django localy in venv
 ```bash
 pip install django
 ```
-6- install pillow package
+6. install pillow package
 ```bash
 pip install pillow
 ```
-7- install django rest frame work
+7. install django rest frame work
 ```bash
 pip install djangorestframework
 ```
-8- apply migrations
+8. apply migrations
 ```bash
 python manage.py migrate
 ```
-9- run server
+9. run server
 ```bash
 python manage.py runserver
 ```
