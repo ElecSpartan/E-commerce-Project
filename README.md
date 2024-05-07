@@ -37,4 +37,6 @@ pip install djangorestframework
 python manage.py migrate
 ```
 9- run server
+```bash
 python manage.py runserver
+```
