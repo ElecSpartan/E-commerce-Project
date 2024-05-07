@@ -1,6 +1,6 @@
-# E-commerce Project
+# Parallel and distributed systems Project
 
-### This is a project for the parallel and distributed system course where we make an online ecommerece with features:
+### Online store with features:
 * sign up
 * log in
 * search with different ways like category, name and description
